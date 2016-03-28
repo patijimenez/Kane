@@ -1,0 +1,262 @@
+
+   // VARIABLES
+
+   $cien:100px;
+   $ml-div:150px;
+   $green: #27ad60;
+
+//-----------------mixin  pallete
+   @mixin div-palette($bg-color) {
+   		background-color: $bg-color;
+		width: 160px;
+		height: 100px;
+		display: inline-block;
+		margin-bottom: 10px;
+   }
+
+.navbar-collapse.collapse {
+    float: right;
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+	background-color: $green;
+	padding: 15px;
+}
+#navigation li a {
+    color: white;
+
+	&:hover{
+	background-color:#E8B30C;
+}
+}
+.bg-img{
+	background-image: url(../img/carousel-bg.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+.text-white{
+	color: white;
+}
+.padding-top{
+	padding-top: $cien;
+}
+.large{
+	font-size: large;
+}
+.center{
+	text-align: center;
+}
+// section: Pick your color palette
+.square1{
+	@include div-palette(#69D2E7);
+	margin-left: $ml-div;	
+}
+
+.square2{
+	@include div-palette(#A7DBDB);
+}
+	//#E0E4CC
+.square3{
+	@include div-palette(#E0E4CC);
+}
+	//#F38630
+.square4{
+	@include div-palette(#F38630);
+}
+	//#69D2E7
+.square5{
+	@include div-palette(#69D2E7);
+}
+	//#E94C6F
+.square6{
+	@include div-palette(#E94C6F);
+	margin-left: $ml-div;
+}
+	//#542733
+.square7{
+	@include div-palette(#542733);
+}
+	//#5A6A62
+.square8{
+	@include div-palette(#5A6A62);
+}
+	//#C6D5CD
+.square9{
+	@include div-palette(#C6D5CD);
+}
+	//#FDF200
+.square10{
+	@include div-palette(#FDF200);
+}
+	//#DB3340
+.square11{
+	@include div-palette(#DB3340);
+	margin-left: $ml-div;
+}
+	//#E8B71A
+.square12{
+	@include div-palette(#E8B71A);
+}
+	//#F7EAC8
+.square13{
+	@include div-palette(#F7EAC8);
+}
+	//#1FDA9A
+.square14{
+	@include div-palette(#1FDA9A);
+}
+	//#28ABE3
+.square15{
+	@include div-palette(#28ABE3);
+}
+	//#588C73
+.square16{
+	@include div-palette(#588C73);
+	margin-left: $ml-div;
+}
+	//#F2E394
+.square17{
+	@include div-palette(#F2E394);
+}
+	//#F2AE72
+.square18{
+	@include div-palette(#F2AE72);
+}
+	//#D96459	
+.square19{
+	@include div-palette(#D96459);
+}
+	//#8C4646
+.square20{
+	@include div-palette(#8C4646);	
+}
+	//#D0C91F
+.square21{
+	@include div-palette(#D0C91F);
+	margin-left: $ml-div;
+}
+	//#85C4B9	
+.square22{
+	@include div-palette(#85C4B9);
+}
+	//#008BBA
+.square23{
+	@include div-palette(#008BBA);	
+}
+	//#DF514C
+.square24{
+	@include div-palette(#DF514C);	
+}
+	//#DC403B
+.square25{
+	@include div-palette(#DC403B);
+}
+div.palette:hover {
+    opacity: 0.3;
+}
+#about-us{
+	background-color: #2C3E50;
+}
+#section-green{
+	background-color: $green;
+	height: auto;
+	padding-bottom: 90px;
+}
+.icon-bg{
+	background-image: url(../img/icon-bg.png);
+	border-radius: 50%;
+	background-size: cover;
+	width: 150px;
+    height: 150px;
+	background-color: #2C3E50;
+}
+.cont-wwd img {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.cont-wwd .icon-bg {
+    margin-left: 113px;
+}	
+.cont-wwd {
+     height: 375px;
+     padding-top: 20px;   
+}
+img.img-responsive {
+    padding: 50px;
+}
+.col-xs-12.col-md-4 .cont-wwd:hover {
+    background-color: rgba(44, 62, 80, 0.65);
+}
+button.btn.btn-default {
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 50%;
+}
+.jane-doe p{
+	border-top: 1px dashed #9e968f;
+}
+.border-price{
+
+}
+#best-price{
+	    background-color: #2C3E50;
+    	padding-top:30px;
+}
+#clients{
+	background-color: #2C3E50;	
+	padding:75px;
+}
+#icon-sm{
+	background-image: url(../img/img-divider-img.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 366px;
+} 
+.bg-green{
+	background-color: $green;
+}
+ul.list-group {
+    border: 3px solid #27AD60;
+}
+i.fa.fa-envelope.e-form {
+    color: darkorange;
+}
+.p-title {
+    font-size: 74px;
+}
+.socialm {
+    font-size: large;
+    text-align: center;
+}
+li.list-group-item.s-price {
+    background-color: #27AD60;
+    padding:50px;
+}
+.bg-blue{
+	background-color: #2C3E50;	
+}
+.form-horizontal{
+	margin-left:50px;
+}
+hr{
+	width:247px;
+}
+li.list-group-item.bg-blue.text-white.hov:hover {
+    background-color: orange;
+}
+.form-a {
+    width: 70%;
+    margin-left: 195px;
+}
+#icon-sm a i {
+    padding: 10px;
+}
+.col-sm-12.col-md-3.border-price:hover {
+    margin-top: -15px;
+}
+.cursive{
+	font-family:cursive;
+}
